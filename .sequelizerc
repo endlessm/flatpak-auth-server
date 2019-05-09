@@ -1,0 +1,8 @@
+require('./src/init');
+
+module.exports = {
+    'config': `${__dirname}/src/config/sequelize.js`,
+    'migrations-path': `${__dirname}/src/migrations`,
+    'seeders-path': `${__dirname}/src/seeders`,
+    'models-path': `${__dirname}/src/models`,
+};

@@ -1,0 +1,7 @@
+{
+    "sequelize": {
+        "database": "flatpak-entitlements-server",
+        "host": "/var/run/postgresql",
+        "dialect": "postgres"
+    }
+}
